@@ -1,5 +1,4 @@
 
-
 /* repeating class section */
 
 .small-icons {
@@ -47,7 +46,6 @@ header {
 }
 
 #head-bar {
-    position:sticky;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
@@ -115,6 +113,45 @@ nav div:last-child {
     margin-left:10px;
 }
 
+
+/* Main body section */
+
+main {
+    margin-left:11vw;
+    max-width: 45vw;
+    font-family: Arial, sans-serif;
+
+}
+main div:first-child {
+    color:gray;
+}
+
+.search-result {
+    margin-top: 30px;
+}
+
+.web-add {
+    color:#000000c4;
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+
+.web-link {
+    text-decoration: none;
+    color:blue;
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+}
+.web-link:hover {
+    text-decoration:underline;
+}
+
+.web-descript {
+    color:#000000c4;
+    font-size: 17px;
+    margin: 5px 0px 20px 0px;
+}
 
 
 
