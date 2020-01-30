@@ -123,7 +123,14 @@ main {
 
 }
 main div:first-child {
-    color:gray;
+    color:#808080;
+}
+
+.borderResult {
+    border: 1px #80808069 solid;
+    border-radius: 15px;
+    padding: 20px 10px 20px 10px;
+    margin: 5px -15px 5px -15px;
 }
 
 .search-result {
