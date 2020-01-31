@@ -162,21 +162,23 @@ main div:first-child {
 
 #boxedResult ul {
     list-style-type: none;
+    padding: 20px 10px 10px 10px;
+    margin: 5px -15px 5px -15px
     
 }  
 
-#boxedResult ul::first-line {
-    font-size: 20px;
-    border-top:none;
-
-}
-
-#boxedResult ul li{
-    font-size: 18px;
-    border-top:1px #80808069 solid;
+#boxedResult ul li {
     padding: 10px 10px 10px 10px;
     margin:1px -10px 10px -10px;
-    
 }
 
+#boxedResult ul::first-line {
+    font-size: 20px;
+
+}
+
+#boxedResult ul li:not(:first-child){
+    font-size: 18px;
+    border-top:1px #80808069 solid;
+}
 
