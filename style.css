@@ -126,7 +126,7 @@ main div:first-child {
     color:#808080;
 }
 
-.borderResult, #boxedResult ul {
+.borderResult, #boxed-result ul {
     border: 1px #80808069 solid;
     border-radius: 15px;
     padding: 20px 10px 20px 10px;
@@ -146,8 +146,9 @@ main div:first-child {
 
 .web-link {
     text-decoration: none;
-    color:blue;
+    color:#1a0dab;
     font-size: 20px;
+    font-weight: 400;
     margin: 5px 0px 5px 0px;
 }
 .web-link:hover {
@@ -160,25 +161,49 @@ main div:first-child {
     margin: 5px 0px 20px 0px;
 }
 
-#boxedResult ul {
+#boxed-result ul {
     list-style-type: none;
     padding: 20px 10px 10px 10px;
     margin: 5px -15px 5px -15px
     
 }  
 
-#boxedResult ul li {
+#boxed-result ul li {
     padding: 10px 10px 10px 10px;
     margin:1px -10px 10px -10px;
 }
 
-#boxedResult ul::first-line {
+#boxed-result ul::first-line {
     font-size: 20px;
 
 }
 
-#boxedResult ul li:not(:first-child){
+#boxed-result ul li:not(:first-child){
     font-size: 18px;
     border-top:1px #80808069 solid;
 }
 
+/* search releated section */
+
+.section-head {
+    font-size: 23px;
+    margin:30px 0px 10px 0px;
+}
+
+#search-related{
+    display: flex;
+    flex-direction: row;
+}
+
+.column-links{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0px 0px;
+    
+}
+.column-links a{
+    color: #1a0dab;
+    text-decoration: none;
+    margin: 10px 10px 0px 0px;
+    font-weight: 600;
+}
