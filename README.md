@@ -1,8 +1,8 @@
 
-This is part of the mini project: Google Homepage, Web 101
+# Google Homepage
 
-Goal: Recreate the google search results page
+## Project: The Odin Project, Web 101
 
-Objectives: 
+### Objectives:
 1. Practice HTML and CSS
 2. Practice basic git workflow
